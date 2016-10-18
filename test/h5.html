@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+	<title>test-h5</title>
+	<link rel="stylesheet" href="css/h5.css">
+	<link rel="stylesheet" href="css/h5componmentBase.css">
+	<script src="../js/lib/jquery.min.js" type="text/javascript"></script>
+	<script src="../js/lib/jquery.ui.min.js" type="text/javascript"></script>
+	<script src="../js/lib/jquery.fullPage.min.js" type="text/javascript"></script>
+	<script src="js/h5ComponmentBase.js" type="text/javascript"></script>
+	<script src="js/h5.js" type="text/javascript"></script>
+	<style type="text/css" media="screen">
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+		$(function(){
+			var h5 = new H5();
+			h5
+				.addPage('face','首页')
+					.addComponment('123',{
+						width:450,
+						height:150,
+						css:{
+							backgroundColor:'red',
+							top:200
+						},
+						center:true,
+						animateIn:{top:180, opacity:1},
+						animateOut:{top:200, opacity:0}
+						
+					})
+					.addComponment('249',{
+						width:450,
+						height:150,
+						center:true,
+						css:{
+							backgroundColor:'red',
+							top:350
+						}
+					})
+				.addPage('face','第二页')
+				.addPage('face','第三页')
+				.addPage('face','第四页')
+				.loader();
+		})
+	</script>
+</body>
+</html>

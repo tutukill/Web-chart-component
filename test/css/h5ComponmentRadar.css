@@ -1,0 +1,23 @@
+.h5_componment{
+	position: absolute;
+}
+
+.h5_componment_radar canvas{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.h5_componment_radar .text{
+    position: absolute;
+    transition: 1s 1.5s;
+    opacity: 0;
+}
+/*.h5_componment_radar_onload .text{
+    opacity: 1;
+}
+.h5_componment_radar_onleave .text{
+    opacity: 0;
+}
+*/

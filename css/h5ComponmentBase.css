@@ -1,0 +1,18 @@
+
+.h5_componment{
+	position: absolute;
+	background-size: 100%;	
+	background-repeat: no-repeat;
+}
+
+/*.h5_componment_base{
+	transition: all 1s;
+}*/
+
+/*.h5_componment_base_onload{
+	opacity: 1;
+}
+
+.h5_componment_base_onleave{
+	opacity: 0;
+}*/

@@ -1,0 +1,52 @@
+.h5_componment{
+	position: absolute;
+}
+
+.h5_componment_bar .line{
+	height: 15px;
+	font-size: 12px;
+	line-height: 15px;
+	margin-bottom: 15px;
+	
+}
+.h5_componment_bar .name{
+	width: 60px;
+	float: left;
+	color: #000;
+	text-align: center;
+}
+.h5_componment_bar .rate{
+	height: 15px;
+	margin-left: 5px;
+	float: left;
+	position: relative;
+}
+.h5_componment_bar .bg{
+	background-color: #ff7676;
+	height: 15px;
+	position: relative;
+	left: 0;
+	top:0;
+}
+.h5_componment_bar .per{
+	width: 20px;
+	color: #000;
+	margin-left: 5px;
+	float: left;
+	opacity: 0;
+}
+
+.h5_componment_bar_onload .bg{
+	transition: all 1s 0.5s;
+	width: 100%
+}
+.h5_componment_bar_onleave .bg{
+	width: 0%;
+}
+.h5_componment_bar_onload .per{
+	transition: all 1s 1.5s;
+	opacity: 1;
+}
+.h5_componment_bar_onleave .per{
+	opacity: 0;
+}
